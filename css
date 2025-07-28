@@ -1,0 +1,26 @@
+The heading 👇
+
+Awesome heading <img class="heading-image" src="your URL here">
+effect that <img class="heading-image" src="your URL here">
+deserves a like
+
+The CSS 👇
+
+.heading-image {
+    max-width: 15% !important;
+    border-radius: 150px !important;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+    .heading-image {
+    max-width: 15% !important;
+    border-radius: 150px !important;
+ }
+}
+
+@media only screen and (max-width: 767px) {
+    .heading-image {
+    max-width: 18% !important;
+    border-radius: 150px !important;
+ }
+}
